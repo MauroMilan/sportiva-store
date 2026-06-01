@@ -1,0 +1,40 @@
+.form{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 350px;
+    height: 380px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #94A3B8;
+    font-weight: 600;
+    font-family: "roboto", "Segoe UI", Arial, sans-serif;
+    h5{
+        margin: 0;
+        text-align: center;
+        font-family: "roboto", "Segoe UI", sans-serif;
+        font-size: clamp(10px, 1.5vw, 20px);
+        font-weight: 830;
+        white-space: nowrap;
+    }
+}
+
+.button-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "roboto", "Segoe UI", sans-serif;
+    border-radius: 10px;
+    .btn{
+        background-color: #051ec1;
+        color: rgb(245, 236, 236);
+        font-weight: 800;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.05);
+            background-color: #ADFF2F;
+            color: black;
+        }
+    }
+}    
