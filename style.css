@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.imagen{
+.imagenraul{
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -22,7 +22,7 @@
     
 }
 
-i{
+.icon{
     font-size: 40px;
     padding: 10px;
 }
@@ -65,13 +65,14 @@ i{
     gap: 5px;
 }
 
-h2{
+.sector{
     font-family: teko, sans-serif;
     font-size: 30px;
     margin: 0;
+    
 }
 
-h3 strong p{
+.sector2 strong p{
     font-family: roboto, sans-serif;
     font-size: 20px;
     margin: 0;
