@@ -1,3 +1,4 @@
+
 const oferta = document.querySelector(".oferta");
 const descuento = document.querySelector(".descuento");
 
@@ -5,29 +6,25 @@ const descuento = document.querySelector(".descuento");
 // Animación cuando el cursor pasa por la caja
 oferta.addEventListener('mouseover', () => {
     oferta.classList.add("animada");
-}
-);
+});
 
 // Cuando el cursor sale de la caja
 
 oferta.addEventListener('mouseout', () => {
     oferta.classList.remove("animada");
-}
-);
+});
 
 // Animación descuento
 // Animación cuando el cursor pasa por la caja
 descuento.addEventListener('mouseover', () => {
     descuento.classList.add("animado");
-}
-);
+});
 
 // Cuando el cursor sale de la caja
 
 descuento.addEventListener('mouseout', () => {
     descuento.classList.remove("animado");
-}
-);
+});
 
 
 const button = document.querySelector('.btn');
@@ -38,7 +35,7 @@ function validateForm() {
     const email = document.getElementById('email').value;
     const phone = document.getElementById('phone').value;
 
-    if (name.trim().length <= 8) {
+    if (name.trim().length <= 15) {
         alert('Por favor, ingresa tu nombre completo.');
         return;
     }
@@ -58,3 +55,20 @@ document.getElementById('phone').addEventListener('input', function() {
 });
 
 button.addEventListener('click', validateForm);
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, index) => {
+    if (entry.isIntersecting) {
+      // Retraso escalonado para efecto cascada
+      setTimeout(() => {
+        entry.target.classList.add('visible');
+      }, index * 150);
+     observer.unobserve(entry.target); // Solo anima una vez
+    }
+  });
+}, { threshold: 0.2 }); // Se activa cuando el 20% es visible
+
+document.querySelectorAll('.testimonial-card').forEach(card => {
+  observer.observe(card);
+});
+
