@@ -1,7 +1,5 @@
-
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,142 +8,212 @@
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
 
-  <!--ENCABEZADO-->
   <nav class="navbar navbar-dark navbarSportiva">
     <a class="navbar-brand" href="#">
       <img src="./logosportiva.png" width="100" height="45" alt="Logo de Sportiva">
     </a>
   </nav>
 
-  <!--BANNER INICIAL-->
-
   <section class="hero">
-
-    <div class="heroContenido d-flex  justify-content-between h-100">
-
-      <!--texoIzquierdo-->
-
-      <div class="textoHero d-flex flex-column ">
+    <div class="heroContenido d-flex justify-content-between h-100">
+      <div class="textoHero d-flex flex-column">
         <h2 class="pasion">PASIÓN</h2>
-        <h1 class="mundial"> MUNDIAL 2026</h1>
-        <h2 class="torneo d-flex m-2"> El torneo del siglo</h2>
+        <h1 class="mundial">MUNDIAL 2026</h1>
+        <h2 class="torneo d-flex m-2">El torneo del siglo</h2>
         <div class="preparate d-flex flex-column align-items-center">
-          <p> Prepárate para el torneo más grande de la historia.</p>
-          <p>Vive la emoción del Mundial 2026 </p>
-          <p>con lo mejor del deporte. </p>
-
+          <p>Prepárate para el torneo más grande de la historia.</p>
+          <p>Vive la emoción del Mundial 2026</p>
+          <p>con lo mejor del deporte.</p>
         </div>
       </div>
 
-      <!--oferta-->
-
       <div class="promo d-flex flex-column">
         <div class="textoPromo">
-          <div class="oferta"> ¡OFERTA IMPERDIBLE! </div>
-          <div class="hasta"> HASTA</div>
-
-
-
+          <div class="oferta">¡OFERTA IMPERDIBLE!</div>
+          <div class="hasta">HASTA</div>
           <div class="descuento">60%</div>
-
-          <div class="off"> OFF</div>
-          <div class="productos"> EN PRODUCTOS</div>
-          <h3 class="seleccionados"> SELECCIONADOS</h3>
+          <div class="off">OFF</div>
+          <div class="productos">EN PRODUCTOS</div>
+          <h3 class="seleccionados">SELECCIONADOS</h3>
         </div>
 
-        <!--CTA-->
         <div class="botonPromo d-flex flex-column align-items-center mt-4">
           <a href="#" class="btn btn-success btnSportiva mt-1">
             COMPRAR AHORA
           </a>
-          <div class="valido"> *VALIDO POR TIEMPO LIMITADO</div>
+          <div class="valido">*VALIDO POR TIEMPO LIMITADO</div>
         </div>
-
       </div>
-
     </div>
-
-
   </section>
 
-  
-    <div class="form">
-        <h5>CONSIGUE TU DESCUENTO DE 10%</h5>
-        <div class="mb-3">
-            <label for="name" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="name" placeholder="Nombre completo">
-        </div>
-        <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
-        </div>
-        <div class="mb-3">
-            <label for="phone" class="form-label">Contacto</label>
-            <input type="text" class="form-control" id="phone" placeholder="Número de teléfono">
-        </div>
-        <div class= "button-container">
-            <button type="button" class="btn">APLICAR DESCUENTO ESPECIAL</button>
-        </div>
+  <div class="form my-5 container">
+    <h5>CONSIGUE TU DESCUENTO DE 10%</h5>
+    <div class="mb-3">
+        <label for="name" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="name" placeholder="Nombre completo">
     </div>
-   
-  <script src="./main.js" type="module"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
-</body>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
+    </div>
+    <div class="mb-3">
+        <label for="phone" class="form-label">Contacto</label>
+        <input type="text" class="form-control" id="phone" placeholder="Número de teléfono">
+    </div>
+    <div class="button-container">
+        <button type="button" class="btn btn-primary">APLICAR DESCUENTO ESPECIAL</button>
+    </div>
+  </div>
 
-</html>
-=======
+  <main class="productsSection">
+    <h2>Productos destacados</h2>
+    
+    <a href="#" class="btnVerTodos">
+        VER TODOS <span>&gt;</span>
+    </a>
 
-<!--SECCION DE TESTIMONIOS-->
-
-    <section class="py-5 bg-light">
-        <div class="container">
-            <div class="col-lg-8  ms-auto">
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card testimonial-card h-100">
-                        <img src="https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=387&auto=format&fit=crop" 
-                             class="rounded-circle mx-auto d-block" 
-                             alt="Carlos M." 
-                             loading="lazy">
-                        <div class="card-body">
-                            <h5 class="card-title">Carlos M.</h5>
-                            <p class="card-text">La playera de México llegó súper rápido a mi casa y la calidad de los materiales oficiales es excelentes. El descuento del 10% en la primera compra valió totalmente la pena.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="card testimonial-card h-100">
-                        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=387&auto=format&fit=crop" 
-                             class="rounded-circle mx-auto d-block" 
-                             alt="Alejandro S." 
-                             loading="lazy">
-                        <div class="card-body">
-                            <h5 class="card-title">Alejandro S.</h5>
-                            <p class="card-text">Compré los tachos Adidas Predator Accuracy. Excelente tracción en la cancha y todo el proceso de pago fue 100% seguro. Una tienda muy confiable en productos deportivos.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="card testimonial-card h-100">
-                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=387&auto=format&fit=crop" 
-                             class="rounded-circle mx-auto d-block" 
-                             alt="Sofía R." 
-                             loading="lazy">
-                        <div class="card-body">
-                            <h5 class="card-title">Sofía R.</h5>
-                            <p class="card-text">Me encanta que resuelven todas tus dudas rápido por atención al cliente. La mochila Nike Team viene perfecta para llevar todo el entrenamiento.</p>
-                        </div>
-                    </div>
+    <div class="productsGrid">
+        <div class="productCard">
+            <div class="cardHeader">
+                <span class="discountBadge">-60%</span>
+                <button class="wishlistBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="heartIcon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="productImgBox imgPurple">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR-sC-nhpkTiLOrfoEagMxmYx6c2zDRWUwUxqmvPV5h9ZOUxwnLOLZgPmzfhFdNMBwa0bk5VcQ9mcsZE6AlcYZK-2Ktn4j9" alt="Tenis adidas">
+            </div>
+            <div class="productDetails">
+                <h3 class="brand">ADIDAS</h3>
+                <p class="productName">Predator Accuracy FG</p>
+            </div>
+            <div class="priceContainer">
+                <span class="originalPrice">$6,499.00</span>
+                <div class="currentPrices">
+                    <span class="salePrice">$4,499.00</span>
+                    <span class="finalPrice">$2,199.90</span>
                 </div>
             </div>
-         </div>
         </div>
-    </section>
 
+        <div class="productCard">
+            <div class="cardHeader">
+                <span class="discountBadge">-60%</span>
+                <button class="wishlistBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="heartIcon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="productImgBox imgGreen">
+                <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/b901eaf1a39043c68ccd846729845edc_faec/Jersey_Visitante_Seleccion_Nacional_de_Mexico_26_Manga_Larga_Version_Jugador_Blanco_JZ2769_db01_laydown.jpg" alt="Jersey">
+            </div>
+            <div class="productDetails">
+                <h3 class="brand">MÉXICO</h3>
+                <p class="productName">Jersey Local 2024</p>
+            </div>
+            <div class="priceContainer">
+                <span class="originalPrice">$3,799.00</span>
+                <div class="currentPrices">
+                    <span class="salePrice">$1,099.00</span>
+                    <span class="finalPrice">$1,519.60</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="productCard">
+            <div class="cardHeader">
+                <span class="discountBadge">-60%</span>
+                <button class="wishlistBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="heartIcon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="productImgBox imgBlue">
+                <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/fpm/084149/01/mod01/fnd/MEX/fmt/png/Bal%C3%B3n-de-F%C3%BAtbol-individualRISE-Graphic" alt="Balón">
+            </div>
+            <div class="productDetails">
+                <h3 class="brand">ADIDAS</h3>
+                <p class="productName">Balón Oficial Mundial 2026™</p>
+            </div>
+            <div class="priceContainer">
+                <span class="originalPrice">$4,499.00</span>
+                <div class="currentPrices">
+                    <span class="salePrice">$4,499.00</span>
+                    <span class="finalPrice">$1,799.90</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="productCard">
+            <div class="cardHeader">
+                <span class="discountBadge">-60%</span>
+                <button class="wishlistBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="heartIcon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="productImgBox imgBeige">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQdJChieSEc6pXfakxU6AryDz3un37IsnJMmbFJ8Hx7VmzGwnK688H4pbCAtV8Ue8nEXx8TTPf2h7PWlUTsJJ-weobOU145cbVO3k1wbkN5OQjsoiunP3_-uyyhn7O0qEJONIDeCQQ&usqp=CAc" alt="Mochila">
+            </div>
+            <div class="productDetails">
+                <h3 class="brand">NIKE</h3>
+                <p class="productName">Academy Team Backpack</p>
+            </div>
+            <div class="priceContainer">
+                <span class="originalPrice">$2,249.00</span>
+                <div class="currentPrices">
+                    <span class="finalPrice">$899.60</span>
+                </div>
+            </div>
+        </div>
+    </div>
+  </main>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <div class="card testimonial-card h-100">
+            <img src="https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=387&auto=format&fit=crop" class="rounded-circle mx-auto d-block mt-3" alt="Carlos M." loading="lazy" width="80" height="80">
+            <div class="card-body text-center">
+              <h5 class="card-title">Carlos M.</h5>
+              <p class="card-text">La playera de México llegó súper rápido a mi casa y la calidad de los materiales oficiales es excelentes.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="card testimonial-card h-100">
+            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=387&auto=format&fit=crop" class="rounded-circle mx-auto d-block mt-3" alt="Alejandro S." loading="lazy" width="80" height="80">
+            <div class="card-body text-center">
+              <h5 class="card-title">Alejandro S.</h5>
+              <p class="card-text">Compré los tachos Adidas Predator Accuracy. Excelente tracción en la cancha y todo el proceso fue seguro.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="card testimonial-card h-100">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=387&auto=format&fit=crop" class="rounded-circle mx-auto d-block mt-3" alt="Sofía R." loading="lazy" width="80" height="80">
+            <div class="card-body text-center">
+              <h5 class="card-title">Sofía R.</h5>
+              <p class="card-text">Me encanta que resuelven todas tus dudas rápido por atención al cliente. La mochila Nike Team viene perfecta.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./main.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
