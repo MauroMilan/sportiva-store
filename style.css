@@ -1,0 +1,37 @@
+ .testimonial-card {
+            border: none;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            height: 100%;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s e
+            
+        }
+        
+        .testimonial-card img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        
+        .testimonial-card .card-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            font-family: 'Teko', sans-serif;
+        }
+        
+        .testimonial-card .card-text {
+            font-size: 0.9rem;
+            color: black;
+            line-height: 1.5;
+            font-family: 'Roboto', sans-serif; 
+        }
+        .testimonial-card.visible {
+        opacity: 1;
+        transform: translateY(0);
+        }
