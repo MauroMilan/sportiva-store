@@ -497,6 +497,7 @@ div:hover{
 .imgSocialNetwork {
     width: 40px;
     height: 40px;
+   
 }
 
 
@@ -520,5 +521,13 @@ div:hover{
 
     margin: 20px;
     text-align: center;
+    
+}
+#listHelp{
+     color: #94A3B8;
+}
+.listSectionFooter a{
+      color: #94A3B8;
+        text-decoration: none;
 }
 
